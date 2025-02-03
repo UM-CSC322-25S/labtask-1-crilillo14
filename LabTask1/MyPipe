@@ -1,1 +1,2 @@
 5
+$(ls -A -1 | wc -l) > MyPipe

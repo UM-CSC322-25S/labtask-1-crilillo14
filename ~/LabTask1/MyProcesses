@@ -1,0 +1,4 @@
+When you start a program from the command line:
+1. Your program's parent process is your shell (bash/zsh/tcsh)
+2. The shell's parent process is the terminal emulator (like gnome-terminal, konsole, etc.)
+3. The terminal emulator's parent process is the desktop environment's session manager or init/systemd (PID 1) 

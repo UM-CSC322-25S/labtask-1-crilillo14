@@ -1,0 +1,6 @@
+id -u                     # User ID
+id -g                     # Primary group ID
+groups                    # Group names
+echo $SHELL              # Shell path
+echo $HOME               # Home directory path
+echo $PATH               # PATH variable 
