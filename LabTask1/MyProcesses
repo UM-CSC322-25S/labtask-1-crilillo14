@@ -1,0 +1,6 @@
+Imagine you start a program from your command line prompt.
+
+What is your program's parent process? ANSWER : It would be the shell; in my case zsh.
+
+What is that process' parent process? The shell's parent process is the one which initiated it, which would be the the launchd process in macOS.
+What is that process' parent process?  The kernel, which for macOS is XNU.

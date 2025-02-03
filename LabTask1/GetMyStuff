@@ -1,0 +1,8 @@
+#!/bin/zsh
+echo "USER ID: $(id -u)" > MyStuff
+echo "GROUP ID: $(id -g)" >> MyStuff
+echo "GROUPS: $(groups)" >> MyStuff
+echo "SHELL PATH: $(which zsh)" >> MyStuff
+echo "HOME DIR: $HOME" >> MyStuff
+echo "PATH: $PATH" >> MyStuff
+cat MyStuff
